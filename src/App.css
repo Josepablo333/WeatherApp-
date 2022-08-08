@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.App .card {
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+.App .card .title{
+   padding: 40px 0px 20px;
+}
+
+.App .card .subTitle{
+   padding: 10px;
+}
+
+.App .card .info .data h3{
+   padding: 15px;
+}
+
+.App .card .info .data .list .element {
+    list-style: none;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+.App .card .info .data .list .element .span {
+    color: purple;
+}
+
+.App .card .temperature {
+    color: black;
+    padding: 10px;
+}
+
+.App .card .btn {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+    .App .card {
+        margin: auto;
+        width: 340px;
+    }
+} 
